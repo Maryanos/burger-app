@@ -1,4 +1,3 @@
-import "../../index.scss"
 import Bread from "./Bread"
 import Lettuce from "./Lettuce"
 import Tomato from "./Tomato"

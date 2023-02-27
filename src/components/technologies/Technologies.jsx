@@ -1,4 +1,3 @@
-import "../../index.scss"
 import Html5 from "./Html5"
 import Css3 from "./Css3"
 import JavaScript from "./JavaScript"
