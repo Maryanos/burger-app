@@ -1,6 +1,8 @@
+# setting files
 package-lock.json
 package.json
-.vscode
+webpack.config.js
+
 # Numerous always-ignore extensions
 *.diff
 *.err
@@ -31,18 +33,15 @@ nbproject
 _notes
 dwsync.xml
 
-
 # dependencies
 /.pnp
 .pnp.js
 
 # testing
-#/coverage
-
-# production
-#/build
+/coverage
 
 # misc
+.vscode
 .DS_Store
 .env.local
 .env.development.local
