@@ -1,0 +1,30 @@
+.burger {
+  text-align: center;
+  background-color: burlywood;
+  padding: 2.5rem;
+
+  @include tablet {
+    padding: 5rem;
+  }
+
+  h1 {
+    margin: 2rem;
+  }
+
+  &__vegetables {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding: 5rem;
+    flex-wrap: wrap;
+  }
+
+  &__vegetables img {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    min-width: 100px;
+  }
+}
+

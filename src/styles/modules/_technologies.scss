@@ -1,0 +1,28 @@
+.technologies {
+  background-color: rgb(27, 49, 76);
+  text-align: center;
+  padding: 2.5rem;
+
+  @include tablet {
+    padding: 5rem;
+  }
+
+  &__langs {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    padding: 5rem;
+    flex-wrap: wrap;
+  }
+
+  &__langs img {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    min-width: 100px;
+  }
+
+  h1 {
+    margin: 2rem;
+  }
+}
